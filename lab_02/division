@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    printf("YUVRAJ JOSHI \n");
+    int a;
+    int b;
+    int c;
+    printf("give value for a:- \n");
+    scanf("%d",&a);
+    printf("give value for b:- \n");
+    scanf("%d",&b);
+    c=a/b;
+    printf("answer is:-%d \n",c);
+    
+    return 0;
+}
